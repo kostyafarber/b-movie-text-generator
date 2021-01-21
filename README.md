@@ -1,6 +1,6 @@
 # trash-movie-classifier
 
-![](http://gph.is/2AA0gw8)
+![](https://media.giphy.com/media/l0HUldzuCa0S16SkM/source.mp4)
 
 The beginnings of a project that analyses various characteristics of a list of trash movies me and my friends have watched over the years.
 
