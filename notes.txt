@@ -1,0 +1,12 @@
+Notes:
+
+regex for the txt file
+- pycharm one: $*-.*|^\d*.
+- python one: \-.*|^\d*.
+
+Tasks:
+
+Next incorporate IMDbPY to create a new df with all the necessary metadata for each title.
+
+Create a github repo for this project.
+
