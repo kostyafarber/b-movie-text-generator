@@ -13,6 +13,8 @@ with open("trash-movie-list.txt", ) as file:
     trash_list = [re.sub(pattern, replace, x).strip() for x in lines]
 
 # store list in dataframe
-df_movies = pd.DataFrame(trash_list, columns=['Titles'])
+bad_movies_df = pd.DataFrame(trash_list, columns=['Titles'])
 
-print(df_movies.head())
+test_df = bad_movies_df
+
+print(trash_list)
