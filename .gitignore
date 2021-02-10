@@ -1,3 +1,6 @@
 # ignore ideas folder
 
 .idea/
+
+# ignore .condaauto
+.condaauto
