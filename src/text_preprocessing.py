@@ -1,7 +1,7 @@
 import pandas as pd
 import re
 
-with open("trash-movie-list.txt", ) as file:
+with open("../data/raw/trash-movie-list.txt", ) as file:
     # read txt file, convert to list
     lines = [x.strip() for x in file.readlines()]
 

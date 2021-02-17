@@ -62,4 +62,4 @@ for x in columns_reformat:
         df[x] = df[x].apply(lambda l: myPrint_cast(l))
 
 # save as pickle for quick load and import.
-df.to_pickle('test.pkl')
+df.to_pickle('trash_df.pkl')
