@@ -1,4 +1,4 @@
-# trash-movie-classifier
+# bad-movies
 
 <p align="center">
   <img src="https://media.giphy.com/media/bbWHn9uZc0dxsWTm5E/giphy.gif" width='800'>
