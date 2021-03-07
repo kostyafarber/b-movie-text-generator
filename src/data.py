@@ -1,5 +1,3 @@
-
-
 # import trash list
 from text_preprocessing import trash_list
 
