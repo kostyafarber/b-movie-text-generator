@@ -6,7 +6,7 @@ from movie import Movie
 from generator import Generator
 
 # setup
-data_path = 'data/processed/trash_df.pkl'
+data_path = 'src/app/data/processed/trash_df.pkl'
 images_path = 'assets/images/7black.png'
 
 df_bad = pd.read_pickle(data_path)
