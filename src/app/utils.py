@@ -2,16 +2,12 @@ from wordcloud import WordCloud
 import os
 import matplotlib.pyplot as plt
 
-def get_dir(relative_path):
-    directory = os.path.dirname(__file__)
-    return directory
-
 def generate_wordcloud(text):
     """
     filler
     """
 
-    font_path = '../fonts/TestFoundersGrotesk-Bold.otf'
+    font_path = os.path.abspath('src/app/fonts/TestFoundersGrotesk-Bold.otf')
 
     wc = WordCloud(
                     width=2000, 

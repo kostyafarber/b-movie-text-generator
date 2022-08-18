@@ -6,8 +6,9 @@ from movie import Movie
 from generator import Generator
 
 # setup
-data_path = os.path.join(os.path.pardir, 'data/processed/trash_df.pkl')
-images_path = os.path.join(os.path.pardir, 'assets/images/')
+data_path = os.path.abspath('src/app/data/processed/trash_df.pkl')
+images_path = os.path.abspath('src/app/assets/images/7black.png')
+
 df_bad = pd.read_pickle(data_path)
 df_bad.dropna()
 st.set_page_config(page_title='Zoltare', page_icon='random')
