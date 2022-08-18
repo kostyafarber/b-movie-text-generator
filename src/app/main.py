@@ -8,7 +8,7 @@ from pathlib import Path
 
 # setup
 data_path = Path("src/data/processed/trash_df.pkl")
-images_path = Path('src/assets/images/7black.png')
+images_path = 'src/assets/images/7black.png'
 
 df_bad = pd.read_pickle(data_path)
 df_bad.dropna()
