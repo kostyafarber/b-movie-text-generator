@@ -8,7 +8,7 @@ from pathlib import Path
 
 # setup
 data_path = Path("src/data/processed/trash_df.pkl")
-images_path = 'assets/images/7black.png'
+images_path = Path('src/assets/images/7black.png')
 
 df_bad = pd.read_pickle(data_path)
 df_bad.dropna()
@@ -31,7 +31,7 @@ keywords_text = movies.generate_keyword_str()
 
 #st.title('\U0001F916')
 #st.image("../assets/images/gba_animation.gif")
-st.image(os.path.join(images_path, '7black.png'))
+st.image(images_path)
 st.title('If a robot was a writer of b-movies...')
 
 # selecting the prompt for the generator
