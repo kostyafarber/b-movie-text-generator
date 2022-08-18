@@ -7,7 +7,7 @@ from generator import Generator
 from pathlib import Path
 
 # setup
-data_path = Path("../data/processed/trash_df.pkl")
+data_path = Path("src/data/processed/trash_df.pkl")
 images_path = 'assets/images/7black.png'
 
 df_bad = pd.read_pickle(data_path)
