@@ -4,9 +4,10 @@ import os
 from utils import generate_wordcloud
 from movie import Movie
 from generator import Generator
+from pathlib import Path
 
 # setup
-data_path = '/app/bad-movies/src/app/data/processed/trash_df.pkl'
+data_path = Path("/app/bad-movies/src/app/data/processed/trash_df.pkl")
 images_path = 'assets/images/7black.png'
 
 df_bad = pd.read_pickle(data_path)
