@@ -1,0 +1,10 @@
+Notes:
+
+regex for the txt file
+- pycharm one: $*-.*|^\d*.
+- python one: \-.*|^\d*.
+
+Tasks:
+
+I can use the generated list of keywords to search imdbpy for movies with similar keywords.
+
