@@ -6,8 +6,8 @@ from movie import Movie
 from generator import Generator
 
 # setup
-data_path = os.path.abspath('data/processed/trash_df.pkl')
-images_path = os.path.abspath('assets/images/7black.png')
+data_path = 'data/processed/trash_df.pkl'
+images_path = 'assets/images/7black.png'
 
 df_bad = pd.read_pickle(data_path)
 df_bad.dropna()

@@ -7,7 +7,7 @@ def generate_wordcloud(text):
     filler
     """
 
-    font_path = os.path.abspath('src/app/fonts/TestFoundersGrotesk-Bold.otf')
+    font_path = 'src/app/fonts/TestFoundersGrotesk-Bold.otf'
 
     wc = WordCloud(
                     width=2000, 
