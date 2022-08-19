@@ -27,8 +27,10 @@
 
 <h3 align="center">B-Movie Text Generator</h3>
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://kostyafarber-bad-movies-srcappmain-c412uv.streamlitapp.com/)
+
   <p align="center">
-    This project scrapes car prices every morning using AWS Lambda and stores them in a DynamoDB table. I used this to help me sell my car before I moved to London from Sydney.
+    This app uses openai's gpt-3 to generate hilarious text based on keywords from random awful b-movies.
     <br />
     <a href="https://github.com/kostyafarber/car-sales"><strong>Explore the docs »</strong></a>
     <br />
@@ -82,10 +84,10 @@
 
 ### Built With
 
-* [Python](https://nextjs.org/)
-* [Streamlit](https://reactjs.org/)
-* [OpenAI](https://vuejs.org/)
-* [Cinemagoer](https://vuejs.org/)
+* [Python](https://www.python.org/)
+* [Streamlit](https://streamlit.io/)
+* [OpenAI](https://openai.com/)
+* [Cinemagoer](https://cinemagoer.github.io/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -93,19 +95,20 @@
 
 <!-- GETTING STARTED -->
 ## How Did This Get Made?
-Check out the sidebar on the app to find out more 😏
+Check out the sidebar on the app (click the badge on the top of the page) or vist my [website](https://kostyafarber.github.io/) to find out more 😏
 
 <p align="center">
   <img src="https://media.giphy.com/media/bbWHn9uZc0dxsWTm5E/giphy.gif" width='800'>
 </p>
 
+## Local Installation
 ### Prerequisites
 
 Make sure you have `docker` installed. You can find instructions on their [website](https://docs.docker.com/get-docker/).  
 
 ### Installation
 
-_To instal the project locally follow the instructions below._
+_To install the project locally follow the instructions below._
 
 1. Get a free API Key at [https://openai.com/](https://openai.com/)
 
@@ -116,7 +119,7 @@ _To instal the project locally follow the instructions below._
 
 3. Enter your API key in `src/.streamlit/.secrets.toml`
    ```toml
-   OPENAI_API_KEY = 'ENTER YOUR API';
+   OPENAI_API_KEY = 'ENTER YOUR API'
    ```
 
 4. Make sure you are at the root
@@ -153,7 +156,7 @@ _To instal the project locally follow the instructions below._
   ```
 
 
-To run the the app, build and run the container with `docker-compose`
+  Build and run the container with `docker-compose`
 
   ```sh
   docker-compose -f docker-compose.yml up --build               
@@ -166,7 +169,20 @@ To run the the app, build and run the container with `docker-compose`
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+### Options
+Use the drop down button to pick the medium that is used as a basis to generate text. The options are:
+
+![different options][options]
+
+- `movie plot`
+- `cover letter`
+- `angry email`
+- `advertisement`
+
+### Take Another Spin
+To generate more text again based on the same medium just press this button:
+
+![generate button][generate]
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
@@ -187,8 +203,6 @@ Don't forget to give the project a star! Thanks again!
 5. Open a Pull Request
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- LICENSE -->
 ## License
@@ -232,3 +246,5 @@ Project Link: [https://github.com/kostyafarber/car-sales](https://github.com/kos
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/kostyafarber
 [product-screenshot]: src/assets/images/zoltare-laptop.gif
+[options]: src/assets/images/options.png
+[generate]: src/assets/images/generate.png
