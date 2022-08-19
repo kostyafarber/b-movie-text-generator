@@ -83,23 +83,85 @@
 ### Built With
 
 * [Python](https://nextjs.org/)
-* [AWS](https://reactjs.org/)
-* [BeautifulSoup](https://vuejs.org/)
+* [Streamlit](https://reactjs.org/)
+* [OpenAI](https://vuejs.org/)
+* [Cinemagoer](https://vuejs.org/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
 <!-- GETTING STARTED -->
-## Motivation
+## How Did This Get Made?
+Check out the sidebar on the app to find out more 😏
 
-This is a project I started when I was trying to sell my car before my move to London. I needed to get a feel for what the car market prices were for my Mazda. 
-
-I scraped car sales prices using BeautifulSoup and used AWS Lambda to trigger my code every morning. The results were stored in AWS DynamoDB which then sent an email to my inbox notifying me of the median, mean and price. This helped me make a data-driven sale by setting a fair price.
+<p align="center">
+  <img src="https://media.giphy.com/media/bbWHn9uZc0dxsWTm5E/giphy.gif" width='800'>
+</p>
 
 ### Prerequisites
 
-The lambda function is in `src/scraper/lambda_function.py` and follows the standard AWS Lambda structure.
+Make sure you have `docker` installed. You can find instructions on their [website](https://docs.docker.com/get-docker/).  
+
+### Installation
+
+_To instal the project locally follow the instructions below._
+
+1. Get a free API Key at [https://openai.com/](https://openai.com/)
+
+2. Clone the repo
+   ```sh
+   git clone git@github.com:kostyafarber/bad-movies.git
+   ```
+
+3. Enter your API key in `src/.streamlit/.secrets.toml`
+   ```toml
+   OPENAI_API_KEY = 'ENTER YOUR API';
+   ```
+
+4. Make sure you are at the root
+
+  ```project
+├── Dockerfile
+├── README.md
+├── docker-compose.yml
+├── notebooks
+│   └── bad-movies-eda.ipynb
+├── requirements.txt
+└── src
+    ├── app
+    │   ├── data.py
+    │   ├── generator.py
+    │   ├── main.py
+    │   ├── movie.py
+    │   ├── text_preprocessing.py
+    │   └── utils.py
+    ├── assets
+    │   └── images
+    │       ├── 7black.png
+    │       ├── puzzle.png
+    │       └── zoltare-laptop.gif
+    ├── data
+    │   ├── processed
+    │   │   └── trash_df.pkl
+    │   └── raw
+    │       ├── notes.txt
+    │       ├── trash-movie-list.txt
+    │       └── wiki_movie_plots_deduped.csv
+    └── fonts
+        └── TestFoundersGrotesk-Bold.otf
+  ```
+
+
+To run the the app, build and run the container with `docker-compose`
+
+  ```sh
+  docker-compose -f docker-compose.yml up --build               
+  ```
+
+5. Navigate to `localhost:8501` in your web browser and enjoy the hilarity!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -135,8 +197,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 <!-- CONTACT -->
 ## Contact
 
@@ -151,9 +211,7 @@ Project Link: [https://github.com/kostyafarber/car-sales](https://github.com/kos
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* Thanks to this [article](https://towardsdatascience.com/how-to-make-word-clouds-in-python-that-dont-suck-86518cdcb61f) on helping me improve the vanilla Python wordclouds for this project! Good stuff.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

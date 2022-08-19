@@ -4,3 +4,5 @@
 # dev folders
 src/.devcontainer
 src/.streamlit
+
+src/app/__pycache__/
