@@ -5,4 +5,4 @@
 # ignore .condaauto
 .condaauto
 
-.src/.devcontainer
+src/.devcontainer
