@@ -3,4 +3,5 @@ version: '3.0'
 services:
   bad-movies:
     build: .
-
+    ports: 
+      - "8501:8501"

@@ -1,8 +1,6 @@
-# ignore ideas folder
-
 .idea/
-
-# ignore .condaauto
 .condaauto
 
+# dev folders
 src/.devcontainer
+src/.streamlit
