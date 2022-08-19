@@ -216,7 +216,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Email: kostya.farber@gmail.com
 
-Project Link: [https://github.com/kostyafarber/car-sales](https://github.com/kostyafarber/car-sales)
+Project Link: [https://kostyafarber.github.io/projects/bad-movies][project-link]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -225,11 +225,9 @@ Project Link: [https://github.com/kostyafarber/car-sales](https://github.com/kos
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* Thanks to this [article](https://towardsdatascience.com/how-to-make-word-clouds-in-python-that-dont-suck-86518cdcb61f) on helping me improve the vanilla Python wordclouds for this project! Good stuff.
+* Thanks to this [article]([https://towardsdatascience.com/how-to-make-word-clouds-in-python-that-dont-suck-86518cdcb61f]) on helping me improve the vanilla Python wordclouds for this project! Good stuff.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
@@ -248,3 +246,4 @@ Project Link: [https://github.com/kostyafarber/car-sales](https://github.com/kos
 [product-screenshot]: src/assets/images/zoltare-laptop.gif
 [options]: src/assets/images/options.png
 [generate]: src/assets/images/generate.png
+[project-link]: https://kostyafarber.github.io/projects/bad-movies
