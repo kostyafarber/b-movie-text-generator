@@ -95,3 +95,6 @@ with st.sidebar:
     fig = generate_wordcloud(keywords_text)
     st.pyplot(fig)
     st.caption(f"keywords from IMDb for the movie: {title}")
+    
+    st.write("")
+    st.write("")
