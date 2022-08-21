@@ -104,11 +104,11 @@ Check out the sidebar on the app (click the badge on the top of the page) or vis
 ## Local Installation
 ### Prerequisites
 
-Make sure you have `docker` installed. You can find instructions on their [website](https://docs.docker.com/get-docker/).  
+Make sure you have `docker` installed. You can find instructions on their website [here](https://docs.docker.com/get-docker/).  
 
 ### Installation
 
-_To install the project locally follow the instructions below._
+_To install the project follow the instructions below._
 
 1. Get a free API Key at [https://openai.com/](https://openai.com/)
 
@@ -184,7 +184,7 @@ To generate more text again based on the same medium just press this button:
 
 ![generate button][generate]
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+_For more information, please refer to my [website](https://kostyafarber.github.io/projects/bad-movies)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -225,7 +225,7 @@ Project Link: [https://kostyafarber.github.io/projects/bad-movies][project-link]
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* Thanks to this [article]([https://towardsdatascience.com/how-to-make-word-clouds-in-python-that-dont-suck-86518cdcb61f]) on helping me improve the vanilla Python wordclouds for this project! Good stuff.
+* Thanks to this [article](https://towardsdatascience.com/how-to-make-word-clouds-in-python-that-dont-suck-86518cdcb61f) on helping me improve the vanilla Python wordclouds for this project! Good stuff.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 

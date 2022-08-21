@@ -6,3 +6,5 @@ src/.devcontainer
 src/.streamlit
 
 src/app/__pycache__/
+
+.DS_Store
